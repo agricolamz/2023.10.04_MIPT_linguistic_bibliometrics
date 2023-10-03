@@ -298,7 +298,7 @@ just_linguistics |>
   theme_void()
 ```
 
-## Наша ручная аннотация статей   
+## Наша полуавтоматическая разметка аннотаций   
 
 ```{r, out.width='100%'}
 abstract_annotation <- read_csv("/home/agricolamz/work/bureaucracy/linguistic_convergency/journals/first_results/annotated.csv")
