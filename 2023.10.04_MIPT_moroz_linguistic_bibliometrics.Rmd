@@ -278,7 +278,7 @@ just_linguistics |>
   theme_void()
 
 just_linguistics |> 
-  filter(str_detect(journal_issn, "PHON")) |> 
+  filter(str_detect(journal_issn, "PSYCH")) |> 
   distinct(journal_issn) |> 
   pull(journal_issn) ->
   journals
